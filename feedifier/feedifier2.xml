@@ -2,5 +2,6 @@
 <!DOCTYPE foo [
 <!ENTITY file "file:/flag">
 ]>
-
+<rss version="2.0">
 <foo>&file;</foo>
+</rss>
