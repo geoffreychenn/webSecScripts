@@ -2,5 +2,5 @@
 <!DOCTYPE foo SYSTEM "https://raw.githubusercontent.com/geoffreychenn/webSecScripts/master/feedifier/feedifier2.dtd">
 
 <rss version="2.0">
-<foo>anything</foo>
+<foo><file>anything</file></foo>
 </rss>
