@@ -1,2 +1,2 @@
 <!ELEMENT foo (file)>
-<!ELEMENT file "file:/flag">
+<!ELEMENT file (#PCDATA)>
