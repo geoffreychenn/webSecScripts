@@ -1,4 +1,2 @@
-<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
-<!DOCTYPE foo [
-<!ENTITY file "file:/flag">
-]>
+<!ELEMENT foo (file)>
+<!ELEMENT file "file:/flag">
